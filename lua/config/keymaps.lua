@@ -1,0 +1,16 @@
+-- Keymaps are automatically loaded on the VeryLazy event
+-- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
+
+-- local map = vim.keymap.set
+-- local term = function()
+--   LazyVim.terminal(nil, { cwd = LazyVim.root() })
+--   local win = vim.api.nvim_get_current_win()
+--   -- type of border "none", "single", "double", "rounded", "solid", "shadow"
+--   vim.api.nvim_win_set_config(win, { border = "rounded" })
+-- end
+--
+-- -- 重新定义键映射以覆盖系统默认设置
+-- map("n", "<leader>ft", term, { desc = "Terminal (Root Dir)" })
+-- map("n", "<leader>fT", term, { desc = "Terminal (cwd)" })
+-- map("n", "<c-/>", term, { desc = "Terminal (Root Dir)" })
+-- map("n", "<c-_>", term, { desc = "which_key_ignore" })
